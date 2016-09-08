@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ScrollView
+            android:id="@+id/ui_popupprogressdialog_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fastScrollEnabled="true"
+            android:background="@drawable/popupprogressdialog_bg"
+            android:scrollbarSize="4dp"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbarThumbVertical="@drawable/scroll_bar"
+            android:layout_margin="@dimen/normal_padding_small">
+
+            <TextView
+                android:id="@+id/ui_popupprogressdialog_textview"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_small"
+                android:layout_height="match_parent"
+                android:padding="@dimen/normal_padding_small" />
+        </ScrollView>
+
+        <psycho.euphoria.funny.components.RotateImageView
+            android:id="@+id/ui_popupprogressdialog_rotateimageview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+
+
+            android:scaleType="center" />
+    </RelativeLayout>
+</LinearLayout>

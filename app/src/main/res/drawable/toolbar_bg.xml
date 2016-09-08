@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingMode="stack">
+    <item
+
+        android:drawable="@color/card_shadow" />
+    <item
+        android:top="1dp"
+        android:drawable="@color/material_deep_orange_500" />
+</layer-list>

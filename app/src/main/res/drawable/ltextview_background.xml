@@ -1,0 +1,5 @@
+<bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/reading__reading_themes_vine_yellow1"
+    android:tileMode="repeat"
+    android:dither="true" />

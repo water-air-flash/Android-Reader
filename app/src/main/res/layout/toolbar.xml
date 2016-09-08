@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/material_deep_orange_500">
+
+    <Button
+        android:id="@+id/ui_toolbar_copy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_selector"
+        android:textColor="@color/white"
+
+        android:text="复制" />
+
+    <View
+        android:id="@+id/ui_toolbar_divider"
+        android:layout_toLeftOf="@id/ui_toolbar_copy"
+        android:layout_width="1px"
+        android:background="#e8e8e8"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/ui_toolbar_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/ui_toolbar_divider"
+        android:textColor="@color/white"
+        android:background="@drawable/button_selector"
+        android:text="分享" />
+
+
+    <View
+        android:id="@+id/ui_toolbar_divider1"
+        android:layout_toLeftOf="@id/ui_toolbar_share"
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="#e8e8e8"/>
+
+    <Button
+        android:id="@+id/ui_toolbar_cancel"
+        android:textColor="@color/white"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/ui_toolbar_divider1"
+        android:background="@drawable/button_selector"
+        android:text="取消" />
+</RelativeLayout>

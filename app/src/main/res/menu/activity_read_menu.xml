@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_read_cat"
+        android:title="目录"
+        app:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_reorder_white_36dp"
+        android:orderInCategory="200" />
+    <item
+        android:id="@+id/action_read_open"
+        android:title="@string/action_read_open"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_folder_open_white_36dp"
+        android:orderInCategory="300" />
+    <item
+        android:id="@+id/action_read_import"
+        android:title="跳转"
+        app:showAsAction="never"
+        android:orderInCategory="400" />
+    <item
+            android:id="@+id/action_text_size"
+            android:title="字体"
+            app:showAsAction="never"
+            android:orderInCategory="500" />
+    <item
+            android:id="@+id/action_write_file"
+            android:title="笔记"
+            app:showAsAction="never"
+            android:orderInCategory="600" />
+    <item
+            android:id="@+id/action_find_file"
+            android:title="删除文件"
+            app:showAsAction="never"
+            android:orderInCategory="700" />
+    <item
+        android:id="@+id/action_read_orientation"
+        android:title="横屏"
+        app:showAsAction="never"
+        android:orderInCategory="700" />
+
+</menu>

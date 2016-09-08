@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="psycho.euphoria.funny.MainActivity">
+    <item android:id="@+id/action_combine" android:title="合并文件"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_orange" android:title="分类"
+          android:orderInCategory="100" app:showAsAction="never" />
+</menu>

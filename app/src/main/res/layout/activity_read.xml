@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <FrameLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/ui_activity_read_fragment_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ScrollView
+                android:id="@+id/scroll_view"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                android:padding="20dp"
+        >
+            <!--android:lineSpacingExtra="3dp"-->
+            <psycho.euphoria.funny.components.LTextView
+                    android:id="@+id/ui_activity_read_LTextView"
+                    android:textSize="10dp"
+android:lineSpacingMultiplier="1.5"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+            />
+        </ScrollView>
+
+
+    </FrameLayout>
+

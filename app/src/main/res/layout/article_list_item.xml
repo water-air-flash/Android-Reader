@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+android:paddingLeft="12dp"
+android:paddingRight="12dp"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@drawable/listitem_bg">
+
+<TextView
+    android:layout_marginTop="8.0dip"
+    android:id="@+id/ui_article_list_item_textview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textSize="@dimen/text_size_small"
+    android:layout_marginBottom="8.0dip"
+    android:textColor="@color/title"
+
+    />
+</LinearLayout>

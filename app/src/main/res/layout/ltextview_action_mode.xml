@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/ui_ltextview_button_linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:background="@null">
+
+
+
+    <RelativeLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#fff">
+
+
+        <ScrollView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:scrollbars="none"
+           >
+
+            <TextView
+                android:id="@+id/ui_ltextview_button_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="12dp"
+                android:paddingLeft="12dp"
+                android:textSize="11sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </ScrollView>
+        <ProgressBar
+            android:id="@+id/ui_ltextview_button_progressbar"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:indeterminateDrawable="@drawable/progress_drawable"
+            android:indeterminateOnly="true"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">阅读器</string>
+    <string name="bbc_dlg_str">正在刷新数据...</string>
+    <string name="action_database_list">书籍列表</string>
+    <string name="action_article_list">文章列表</string>
+    <string name="action_database_refresh">刷新</string>
+    <string name="action_article_next">下一篇</string>
+    <string name="action_bbc">BBC</string>
+    <string name="swipe_text">松开阅读下一篇</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="action_read_open">打开书籍</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
